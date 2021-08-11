@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 function App () {
     const [message, setMessage] = useState ("");
     const api = 'https://1zwn6mu9jg.execute-api.ap-southeast-2.amazonaws.com/staging';
-    const data = { "name" : "Jojo" };
+    const data = { "name" : "World" };
 
     useEffect (() => {
       axios
